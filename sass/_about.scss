@@ -1,0 +1,67 @@
+@use 'variables';
+@use 'mixins';
+
+.about__image--dark{
+    grid-column: front / col-end 1;
+    grid-row: 3 / 4;
+
+    @include mixins.breakpoint-down (desktop){
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+    }
+}
+
+.about__wrapper{
+    grid-column: col-end 1 / 4;
+    grid-row: 3 / 4;
+
+    @include mixins.breakpoint-down (desktop){
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+    }
+}
+
+.about__image--light{
+    grid-column: 4 / back;
+    grid-row: 3 / 4;
+
+    @include mixins.breakpoint-down (desktop){
+        grid-column: 1 / -1;
+        grid-row: 5 / 6;
+    }
+}
+
+.about__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__info{
+    height: 100%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    @include mixins.breakpoint-down (mobile){
+        padding: 5rem 2rem;
+    }
+}
+
+.about__heading{
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+
+    @include mixins.breakpoint-down (desktop){
+        font-size: 1.2rem;
+    }
+}
+
+.about__text{
+    line-height: 1.5;
+    color: variables.$Dark-Gray;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="sass/style.css">
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="slider">
+      <img src="./images/desktop-image-hero-1.jpg" alt="Image 1" class="slide" style="transform: translateX(0%);">
+      <img src="./images/desktop-image-hero-2.jpg" alt="Image 2" class="slide" style="transform: translateX(-200%);">
+      <img src="./images/desktop-image-hero-3.jpg" alt="Image 3" class="slide" style="transform: translateX(-400%);">
+      <div class="navbar background-toggle">
+        <img src="./images/icon-hamburger.svg" alt="Navbar logo" class="navbar__hamburguer">
+        <img src="./images/logo.svg" alt="Navbar logo" class="navbar__logo">
+        <ul class="navbar__lists">
+          <li class="navbar__lists--item"><a href="#" class="navbar__link">Home</a></li>
+          <li class="navbar__lists--item"><a href="#" class="navbar__link">Shop</a></li>
+          <li class="navbar__lists--item"><a href="#" class="navbar__link">About</a></li>
+          <li class="navbar__lists--item"><a href="#" class="navbar__link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cta">
+      <div class="cta__wrapper">
+        <h1 class="cta__header">Discover innovative ways to decorate</h1>
+        <p class="cta__text">
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+      </div>
+      <div class="cta__btn">
+        <a href="#" class="cta__shopnow">Shop now</a>
+        <img class="cta__icon" src="./images/icon-arrow.svg" alt="arrow icon">
+      </div>
+      <div class="navigation">
+        <a href="#" class="navigation__left">
+          <img class="navigation__icon" src="./images/icon-angle-left.svg" alt="left icon">
+        </a>
+        <a href="#" class="navigation__right">
+          <img class="navigation__icon" src="./images/icon-angle-right.svg" alt="right icon">
+        </a>
+      </div>
+    </div>
+    <div class="about__image--dark">
+      <img src="./images/image-about-dark.jpg" alt="About image dark" class="about__img">
+    </div>
+    <div class="about__wrapper">
+      <div class="about__info">
+        <h2 class="about__heading">About our furniture</h2>
+        <p class="about__text">
+          Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+    </div>
+    <div class="about__image--light">
+      <img src="./images/image-about-light.jpg" alt="About image light" class="about__img">
+    </div>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

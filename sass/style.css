@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap");
+/* Colors*/
+/* Font*/
+/* paragraph */
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+/* Colors*/
+/* Font*/
+/* paragraph */
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: [front] repeat(2, [col-start] 1fr [col-end]) 0.4fr 1fr [back];
+  grid-template-rows: 2fr 0.3fr 1fr;
+  overflow: hidden;
+}
+@media (max-width: 68.75rem) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 50vh) 30vh 40vh 30vh;
+    overflow-y: scroll;
+  }
+}
+
+.container > * {
+  width: 100%;
+  height: 100%;
+}
+
+/* Colors*/
+/* Font*/
+/* paragraph */
+.slider {
+  grid-column: front/col-end 2;
+  grid-row: 1/3;
+  position: relative;
+}
+@media (max-width: 68.75rem) {
+  .slider {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    overflow: hidden;
+  }
+}
+
+.navbar,
+.slide {
+  position: absolute;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+}
+
+.navbar {
+  top: 10%;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  gap: 3.125rem;
+}
+@media (max-width: 25.625rem) {
+  .navbar {
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    padding: 2rem;
+    gap: 7.5rem;
+    width: 100%;
+  }
+  .navbar.mobile-menu--open {
+    background-color: whitesmoke;
+  }
+}
+
+@media (max-width: 25.625rem) {
+  .navbar__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .navbar__logo.hidden {
+    display: none;
+  }
+}
+
+.navbar__hamburguer {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 25.625rem) {
+  .navbar__hamburguer {
+    display: inline-block;
+  }
+}
+
+.navbar__lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25rem;
+  text-transform: lowercase;
+}
+@media (max-width: 25.625rem) {
+  .navbar__lists {
+    display: none;
+  }
+  .mobile-menu--open .navbar__lists {
+    display: flex;
+  }
+}
+
+.navbar__lists--item {
+  position: relative;
+}
+.navbar__lists--item::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 0.125rem;
+  left: 50%;
+  bottom: -0.4rem;
+  background-color: hsl(0, 0%, 100%);
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.navbar__lists--item:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.navbar__link {
+  color: hsl(0, 0%, 100%);
+}
+@media (max-width: 25.625rem) {
+  .navbar__link {
+    color: hsl(0, 0%, 0%);
+  }
+}
+
+/* Colors*/
+/* Font*/
+/* paragraph */
+.cta {
+  grid-column: col-end 2/back;
+  grid-row: 1/3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 68.75rem) {
+  .cta {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
+}
+
+.cta {
+  padding: 0 6rem;
+}
+@media (max-width: 25.625rem) {
+  .cta {
+    padding: 0 2rem;
+  }
+}
+
+.cta__header {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 68.75rem) {
+  .cta__header {
+    font-size: 2rem;
+  }
+}
+
+.cta__text {
+  margin-bottom: 2rem;
+  color: hsl(0, 0%, 63%);
+  line-height: 1.5;
+}
+
+.cta__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.cta__shopnow {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(0, 0%, 0%);
+  transition: all 0.2s ease;
+}
+
+.navigation {
+  background-color: hsl(0, 0%, 0%);
+  height: 5rem;
+  width: 11.75vw;
+  position: absolute;
+  left: -0.02vw;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 68.75rem) {
+  .navigation {
+    top: -64px;
+    width: 7rem;
+    left: calc(100vw - 7rem);
+    height: 4rem;
+  }
+}
+
+.navigation__left:hover, .navigation__right:hover {
+  background-color: hsl(0, 0%, 27%);
+}
+
+.navigation > * {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.navigation__icon {
+  height: 1.5rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+/* Colors*/
+/* Font*/
+/* paragraph */
+.about__image--dark {
+  grid-column: front/col-end 1;
+  grid-row: 3/4;
+}
+@media (max-width: 68.75rem) {
+  .about__image--dark {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+  }
+}
+
+.about__wrapper {
+  grid-column: col-end 1/4;
+  grid-row: 3/4;
+}
+@media (max-width: 68.75rem) {
+  .about__wrapper {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+  }
+}
+
+.about__image--light {
+  grid-column: 4/back;
+  grid-row: 3/4;
+}
+@media (max-width: 68.75rem) {
+  .about__image--light {
+    grid-column: 1/-1;
+    grid-row: 5/6;
+  }
+}
+
+.about__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about__info {
+  height: 100%;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 25.625rem) {
+  .about__info {
+    padding: 5rem 2rem;
+  }
+}
+
+.about__heading {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+}
+@media (max-width: 68.75rem) {
+  .about__heading {
+    font-size: 1.2rem;
+  }
+}
+
+.about__text {
+  line-height: 1.5;
+  color: hsl(0, 0%, 63%);
+}/*# sourceMappingURL=style.css.map */
