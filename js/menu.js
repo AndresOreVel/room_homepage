@@ -48,13 +48,7 @@ export const slider = () => {
         gotoSilde(count);
         changeCta(count);
     };
-    const checkKeys = (event) => {
-        if(event.code === "ArrowRight"){
-            nextSlide();
-        }else if (event.code === "ArrowLeft"){
-            prevSlide();
-        }
-    };
+
     const init = () => {
         gotoSilde(0);
         changeCta(0);
@@ -62,5 +56,4 @@ export const slider = () => {
     init();
     nextSlideBtn.addEventListener("click", nextSlide);
     prevSlideBtn.addEventListener("click", prevSlide);
-    document.addEventListener("keyup", checkKeys);
 }
