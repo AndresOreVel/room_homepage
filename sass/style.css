@@ -78,7 +78,7 @@ body {
   background-color: transparent;
   gap: 3.125rem;
 }
-@media (max-width: 25.625rem) {
+@media (max-width: 25rem) {
   .navbar {
     justify-content: space-between;
     left: 0;
@@ -92,7 +92,7 @@ body {
   }
 }
 
-@media (max-width: 25.625rem) {
+@media (max-width: 25rem) {
   .navbar__logo {
     position: absolute;
     top: 50%;
@@ -108,7 +108,7 @@ body {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 25.625rem) {
+@media (max-width: 25rem) {
   .navbar__hamburguer {
     display: inline-block;
   }
@@ -121,7 +121,7 @@ body {
   gap: 1.25rem;
   text-transform: lowercase;
 }
-@media (max-width: 25.625rem) {
+@media (max-width: 25rem) {
   .navbar__lists {
     display: none;
   }
@@ -152,7 +152,7 @@ body {
 .navbar__link {
   color: hsl(0, 0%, 100%);
 }
-@media (max-width: 25.625rem) {
+@media (max-width: 25rem) {
   .navbar__link {
     color: hsl(0, 0%, 0%);
   }
@@ -301,7 +301,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
-@media (max-width: 25.625rem) {
+@media (max-width: 25rem) {
   .about__info {
     padding: 5rem 2rem;
   }
