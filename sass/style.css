@@ -28,7 +28,7 @@ body {
   grid-template-rows: 2fr 0.3fr 1fr;
   overflow: hidden;
 }
-@media (max-width: 68.75rem) {
+@media (max-width: 25.625rem) {
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 50vh) 30vh 40vh 30vh;
@@ -169,19 +169,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 0 6rem;
 }
 @media (max-width: 68.75rem) {
   .cta {
     grid-column: 1/-1;
     grid-row: 2/3;
-  }
-}
-
-.cta {
-  padding: 0 6rem;
-}
-@media (max-width: 25.625rem) {
-  .cta {
     padding: 0 2rem;
   }
 }

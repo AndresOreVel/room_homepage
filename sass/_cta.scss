@@ -11,7 +11,7 @@
     align-items: flex-start;
     padding: 0 6rem;
 
-    @include mixins.breakpoint-down (mobile){
+    @include mixins.breakpoint-down (desktop){
         grid-column: 1 / -1;
         grid-row: 2 / 3;
         padding: 0 2rem;
