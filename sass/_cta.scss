@@ -9,17 +9,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    @include mixins.breakpoint-down (desktop){
-        grid-column: 1 / -1;
-        grid-row: 2 / 3;
-    }
-}
-
-.cta{
     padding: 0 6rem;
 
     @include mixins.breakpoint-down (mobile){
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
         padding: 0 2rem;
     }
 }
