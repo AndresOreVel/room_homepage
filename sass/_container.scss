@@ -7,7 +7,7 @@
     grid-template-rows: 2fr .3fr 1fr;
     overflow: hidden;
 
-    @include mixins.breakpoint-down (mobile){
+    @include mixins.breakpoint-down (desktop){
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 50vh) 30vh 40vh 30vh;
         overflow-y: scroll;
